@@ -1,9 +1,6 @@
 <android.support.design.widget.CoordinatorLayout android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent">
-
-    <com.example.xyzreader.ui.DrawInsetsFrameLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_width="match_parent">
+    <com.example.xyzreader.ui.DrawInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/draw_insets_frame_layout"
         android:layout_width="match_parent"
@@ -52,7 +49,7 @@
                         android:id="@+id/meta_bar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#333"
+                        android:background="@color/colorPrimary"
                         android:layout_gravity="bottom"
                         android:orientation="vertical"
                         android:paddingLeft="@dimen/detail_inner_horiz_margin"
@@ -109,7 +106,6 @@
             android:src="@drawable/ic_share"
             android:elevation="@dimen/fab_elevation"
             android:contentDescription="@string/action_share" />
-
 
     </com.example.xyzreader.ui.DrawInsetsFrameLayout>
 </android.support.design.widget.CoordinatorLayout>
