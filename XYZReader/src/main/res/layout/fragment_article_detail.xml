@@ -56,7 +56,7 @@
             android:maxWidth="@dimen/detail_card_max_width"
             android:background="#fff"
             android:elevation="2dp"
-            android:layout_marginTop="@dimen/detail_card_top_margin">
+            >
                     <LinearLayout
                         android:id="@+id/meta_bar"
                         android:layout_width="match_parent"
@@ -120,6 +120,6 @@
             android:src="@drawable/ic_share"
             android:elevation="@dimen/fab_elevation"
             android:contentDescription="@string/action_share"
-            app:layout_behavior="com.example.xyzreader.ui.ScrollAwareFABBehavior"/>
+           />
 
 </android.support.design.widget.CoordinatorLayout>
